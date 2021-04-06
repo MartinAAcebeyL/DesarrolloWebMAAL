@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: 0px;
     background-color: lightgrey;
 }
 
@@ -10,8 +10,8 @@ a{
     margin-left: 15px;
 }
 
-header{
-    padding-top: 1px;
+a:hover{
+    background-color: chocolate;
 }
 
 .content{
@@ -20,6 +20,16 @@ header{
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
+}
+
+.content h2{
+    text-decoration: underline;
+}
+
+.head{
+    margin: 0;
+    padding-top: 8px;
 }
 
 .head ul{
@@ -28,6 +38,8 @@ header{
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 2px;
 }
 
 .head li{
@@ -60,11 +72,12 @@ header{
 }
 
 .line_header_medium{
-    width: 50%;
+    width: 65%;
     align-self: center;
     height: 2px;
     background-color: tomato;
     border-radius: 8px;
+    margin: 0px auto 5px auto;
 }
 
 .description{
@@ -73,12 +86,7 @@ header{
     font-style: italic;
 }
 
-.fa-star{
-    color: yellow;
-    background-color: lightcoral;
-}
-
-.fa-star-half-alt{
+.fa-star , .fa-star-half-alt{
     color: yellow;
     background-color: lightcoral;
 }
@@ -95,6 +103,11 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.habilities table td p{
+    text-align: center;
+    margin: 0;
 }
 
 .habilities table, td{
@@ -158,15 +171,29 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 15px;
+    
 }
 .c_family p{
     text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgb(214, 209, 209);
+    margin: 5px 3px 0px 3px;
 }
 
-.c_family h5{
+.c_family h4{
     margin: 0;
     text-decoration: underline;
     margin: 1px 0 1px 0;
+}
+
+.c_family hr{
+    width: 55%;
+    height: 0.5px;
+    background-color: black;
+    margin: 5px 0 0 0;
 }
 
 .desc_family{
@@ -191,7 +218,7 @@ header{
 
 .friends_picture{
     width: 150px;
-    height: 150px;
+    height: auto;
     border: 1px solid black;
     margin-right: 10px;
     border-top: 0;
@@ -202,6 +229,7 @@ header{
     display: flex;
     margin-bottom: 8px;
     width: 45%;
+    height: auto;
     border: 1px solid darkred;
 }
 
@@ -215,5 +243,30 @@ header{
 .friends_cuadro ul{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+/*footer*/
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(178, 183, 187);
     align-items: center;
 }
+
+.pie div{
+    margin: 0px 5px 0px 15px;
+}
+
+.pie p, img{
+    margin: 0;
+}
+
+#me{
+    width: 150px;
+    height: 150px;
+}
+
