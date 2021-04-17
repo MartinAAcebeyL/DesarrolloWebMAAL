@@ -8,6 +8,14 @@ body{
     background-color: turquoise;
 }
 
+.medium1{
+    background-color: red;
+}
+
+.medium1 p{
+    margin: 0;
+}
+
 .medium2{
     background-color: gray;
     display: flex;
