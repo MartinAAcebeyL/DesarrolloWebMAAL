@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+}
+
+.content{
+    margin: auto;
+    width: 900px;
+    background-color: turquoise;
+}
+
+.medium2{
+    background-color: gray;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 0;
+}
+
+.medium2 p{
+    margin: 3px 5px 3px 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+#several_text{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 0;
+    text-decoration: underline;
+    display: flex;
+    
+}
+.footer p{
+    margin-top: 0;
+    width: 300px;
+    margin-bottom: 0;
+}
+#one{
+    background-color: red;
+}
+
+#two{
+    background-color: yellow;
+}
+
+#tree{
+    background-color: green;
+}
