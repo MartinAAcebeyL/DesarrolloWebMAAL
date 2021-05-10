@@ -70,7 +70,8 @@
                 <td><?php echo $fila['marca'] ?></td>
                 <?php
                 if($_SESSION['nivel']>=1){?>
-                <td><a href='formedit.php?id=<?php echo $fila['id']; ?>'>Actualizar</a>
+                <td>
+                    <a href='formedit.php?id=<?php echo $fila['id']; ?>'>Actualizar</a>
                     <a href='delete.php?id=<?php echo $fila['id']; ?>'> Eliminar</a>
                 </td>
                 <?php
