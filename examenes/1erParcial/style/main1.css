@@ -1,0 +1,32 @@
+table{
+    border-collapse: collapse;
+}
+
+tbody{
+    background-color: #366F91;
+}
+
+.content{
+    width: 900px;
+
+    border: 3px solid black ;
+}
+
+input{
+    text-align: center;
+    color: white;
+    background-color: #4C9BD3;
+}
+
+.orange{
+    text-align: center;
+    color: white;
+    background-color: orange;
+}
+
+.calender{
+    width: 20%;
+    margin: auto;
+    border: 3px solid orange;
+    padding: 20px;
+}
