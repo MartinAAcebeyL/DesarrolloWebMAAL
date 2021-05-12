@@ -1,0 +1,11 @@
+table{
+    border-collapse: collapse;
+}
+
+th{
+    background-color: orange;
+    color: white;
+}
+tr:nth-child(odd) {background: #f3daaf}
+odd
+tr:nth-child(even) {background: #ffffff}

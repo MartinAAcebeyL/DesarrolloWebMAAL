@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style/main2.css">
     <title>Document</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
             break;
     }
 ?>
-<table>
+<table border="1">
     <thead>
         <th>Lunes</th>
         <th>Martes</th>
