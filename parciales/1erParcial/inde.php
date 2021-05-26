@@ -9,7 +9,7 @@
         session_start();
 
         $si=$_COOKIE['pudo'];
-        $no=$_COOKIE['no_pudo'];        
+        $no=$_COOKIE['no_pudo'];     
     ?>
     <div class="content">
         <div class="cabeza">
