@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tarea 7</title>
+</head>
+<script src="main.js"></script>
+<body>
+    <script>
+        x =true
+        while (x) {
+            var n = prompt("Que ejercicio quiere?")
+            var n = parseInt(n);
+            switch (n) {
+                case 0:
+                    x = false
+                    break
+                case 1:
+                    alert('Ejercicio 1')
+                    var vector =[]
+                    for (var index = 0; index < 4; index++) {
+                        var n = prompt("Inserte un numero")
+                        var n = parseInt(n);
+                        vector.push(n)
+                    }
+                    var may=ejer1(vector)
+                    alert("el mayor es: "+may)
+                    break;
+                case 2:
+                    alert('Ejercicio 2')
+                    var n = prompt("Inserte un numero")
+                    var n = parseInt(n)
+                    ejer2(n)==1?alert('par'):alert('impar')
+                    break;
+                case 3:
+                    alert('Ejercicio 3')
+                    var n = prompt("Inserte un texto")
+                    ejer3(n) == true?alert('Palindromo'):alert('No palindromo')
+                    break;
+            }
+        }
+        alert('adios')
+
+    </script>
+</body>
+</html>
