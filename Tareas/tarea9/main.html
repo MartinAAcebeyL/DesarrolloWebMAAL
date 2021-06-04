@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <label>a:</label> <input type="number"  id="a"> <br>
+    <label>b:</label> <input type="number"  id="b"> <br>
+    <label>c:</label> <input type="number"  id="c"> <br>
+    <input type="submit" value="resolver" onclick="resolver()">
+    <div style="display: flex;">
+        <div style="background-color: rgb(140, 140, 179); width:100px" id="r1" ></div>
+        <div style="background-color: rgb(159, 209, 186); width:100px" id="r2" ></div>
+    </div>
+    
+    <script>
+   function resolver(){
+       var a=parseInt(document.getElementById('a').value);
+       var b=parseInt(document.getElementById('b').value);
+       var c=parseInt(document.getElementById('c').value);
+
+       var c1=(-b+Math.sqrt(b*b - 4*a*c))/(2*a);
+       var c2=(-b-Math.sqrt(b*b - 4*a*c))/(2*a);
+       document.getElementById('r1').innerHTML=c1;
+       document.getElementById('r2').innerHTML=c2;
+   }
+
+    </script>
+
+</body>
+</html>
