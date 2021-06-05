@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label>Rojo</label>     <input type="radio" name="color" id="r" value="red" onchange="color(this)"><br>
+    <label>Amarrillo</label><input type="radio" name="color" id="a" value="yellow" onchange="color(this)"><br>
+    <label>Verde</label>    <input type="radio" name="color" id="v" value="green" onchange="color(this)"><br>
+
+    <div id="muestra" style="width: 100px; height: 40px; margin: auto;">
+        Martin Andres Acebey Laime
+    </div>
+
+    <script>
+        function color(x) {
+            var c = document.getElementById('muestra')
+            c.style.backgroundColor = x.value
+        }
+    </script>
+</body>
+</html>

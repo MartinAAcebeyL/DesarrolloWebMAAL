@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>4</title>
+</head>
+<body>
+
+    <label>A:</label><input type="number" name="entrada" id="a"><br>
+    <label>B:</label><input type="number" name="entrada" id="b"><br>
+    <label>C:</label><input type="number" name="entrada" id="c"><br>
+    <input type="submit" value="Calcular" onclick="mayor()">
+  
+    <script>
+        function mayor(){
+            var a=parseInt(document.getElementById('a').value);
+            var b=parseInt(document.getElementById('b').value);
+            var c=parseInt(document.getElementById('c').value);
+            
+            var v=[a,b,c];
+            v = v.sort(function(a, b){return a - b})
+
+            var min = v[0];
+            console.log(v)
+            var may = v[v.length-1]
+            
+            var entrada=document.getElementsByName('entrada');
+            
+            for(var i = 0; i < entrada.length; i++){
+                if(entrada[i].value == may)
+                    entrada[i].style.backgroundColor = 'blue'
+                if(entrada[i].value == min)
+                    entrada[i].style.backgroundColor = 'red'
+            }
+        } 
+    </script>
+</body>
+</html>

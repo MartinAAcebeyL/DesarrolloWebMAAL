@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>dos</title>
+</head>
+<body>
+    <div>
+        <input type="number" id="n">
+        <input type="submit" value="Factorial" onclick="main()">
+    </div>
+    <script>
+        function main() {
+            var a = document.getElementById("n").value
+            seleccion(parseInt(a))
+        }
+        
+        function seleccion(n) {
+            document.write('<select>')
+            for (var i = 0; i < n; i++) {
+                document.write('<option value="'+i+'">')
+                document.write(factorial(i))
+                document.write('</option>')
+            }
+            document.write('</select>')
+        }
+
+        function factorial(n) {
+            if(n == 0)
+                return 1
+            else
+                return factorial(n-1)*n
+        }
+        
+    </script>
+</body>
+</html>
