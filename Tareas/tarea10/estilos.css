@@ -1,0 +1,28 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+}
+#letras{
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#medio{
+    border: solid 1px yellow;
+}
+
+#final{
+    background-color: yellow;
+}
+
+.caja{
+    width: 20px;
+    margin-left: 10px;
+}
+
+#imagen{
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+}
