@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="ajax.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="contenet">
+            <div id="contenido">
+                
+            </div>
+
+            <div class="contenido1">
+                <ol>
+                    <li><a href='javascript:cargarContenido("form.html")'>Crear</a></li>
+                    <li><a href='javascript:cargarContenido("ver.php")'>Ver</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <script>
+       function enviar() {
+            var producto = document.getElementById('producto').value;
+            var precio = parseInt(document.getElementById('precio').value);
+            var descripcion = document.getElementById('descripcion').value;
+            console.log(producto)
+            var url="insert.php?producto="+producto+"&precio="+precio+"&descripcion="+descripcion;
+
+            var ajax = new XMLHttpRequest() //crea el objetov ajax 
+            ajax.open("get",url , true);
+
+            ajax.send(null);
+        }
+    </script>
+</body>
+</html>

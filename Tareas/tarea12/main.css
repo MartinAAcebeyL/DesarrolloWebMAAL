@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+
+
+.table thead{
+    text-transform: capitalize;
+}
+
+.table td, .table th{
+    padding: 1em;
+    border: 0px;
+    text-align: left;
+}
+
+.table tr:nth-child(even){
+    background-color: burlywood;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: rgb(37, 3, 3);
+}
+
+.container{
+    background: #5f2c82;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;/*alto total de la pantalla*/
+    /*centrando al centro de la pantlla*/
+    display: flex;
+    align-items:  center;
+    justify-content: center;
+}
+
+.contenet{
+    width: 50%;
+    height: 70vh;
+    background-color: white;
+
+    /*box-shadow: diferenciaHorizontal diferenciaVertical desenfoque amplitud color;*/
+    box-shadow: 2px 3px 6px black;
+    border-radius: 8px;
+    position: relative;
+    
+    display: flex;
+}
+
+#contenido{
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+
+.contenido1{
+    border-left: 5px dotted  black;
+    width: 25%;
+}
