@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    background-color: lightgrey;
+}
+
+a{
+    text-decoration: none;
+    color: darkred;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+a:hover{
+    background-color: chocolate;
+}
+
+.content{
+    width: 60%;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.content h2{
+    text-decoration: underline;
+}
+
+.head{
+    margin: 0;
+    padding-top: 8px;
+}
+
+.head ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.head li{
+    border-left: 1px solid;
+    font-size: large;
+}
+
+.medium{
+    width: 80%;
+    margin: 0 15px 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.me{
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30%;
+}
+
+.line_header_medium{
+    width: 65%;
+    align-self: center;
+    height: 2px;
+    background-color: tomato;
+    border-radius: 8px;
+    margin: 0px auto 5px auto;
+}
+
+.description{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.fa-star , .fa-star-half-alt{
+    color: yellow;
+    background-color: lightcoral;
+}
+
+.languajes{
+    height: 75px;
+    width: 75px;
+}
+
+.habilities{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.habilities table td p{
+    text-align: center;
+    margin: 0;
+}
+
+.habilities table, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10PX;
+    margin-bottom: 20px;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.habilities table{
+    width: 45%;
+}
+
+.starts{
+    width: 100%;
+    text-align: center;
+}
+
+.imgs{
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.born_live{
+    width: 85%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.content_medium{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.family{
+    width: 200px;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.f_imgs{
+    width: 150px;
+    height: 150px;
+}
+
+.c_family{
+    width: 25%;
+    height: auto;
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    
+}
+.c_family p{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-radius: 0px 0px 15px 15px;
+    background-color: rgb(214, 209, 209);
+    margin: 5px 3px 0px 3px;
+}
+
+.c_family h4{
+    margin: 0;
+    text-decoration: underline;
+    margin: 1px 0 1px 0;
+}
+
+.c_family hr{
+    width: 55%;
+    height: 0.5px;
+    background-color: black;
+    margin: 5px 0 0 0;
+}
+
+.desc_family{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*my friends*/
+.friends{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.friends_picture{
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    margin-right: 10px;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.friends_cuadro{
+    display: flex;
+    margin-bottom: 8px;
+    width: 45%;
+    height: auto;
+    border: 1px solid darkred;
+}
+
+.names{
+
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.friends_cuadro ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+}
+
+/*footer*/
+.pie{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(178, 183, 187);
+    align-items: center;
+}
+
+.pie div{
+    margin: 0px 5px 0px 15px;
+}
+
+.pie p, img{
+    margin: 0;
+}
+
+#me{
+    width: 150px;
+    height: 150px;
+}
+

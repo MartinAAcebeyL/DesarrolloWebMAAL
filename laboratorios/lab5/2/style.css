@@ -1,0 +1,31 @@
+.content{
+    width: 50%;
+    margin: auto;
+    border: 3px solid black;
+    padding: 25px;
+}
+
+.envio{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contenido{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.button{
+    margin: auto;
+    width: 20%;
+    
+}
+
+button{ 
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+}
