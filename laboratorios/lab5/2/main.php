@@ -10,7 +10,13 @@
         <div id="contenido">
         </div><br>
         <div class="envio">
-            <div><label>MES</label><input type="number" name="mes" id="m"></div>
+            <div><label>MES</label> 
+            <select id="m">
+                <?php for ($i=1; $i < 13; $i++) {?>
+                    <option value="<?php echo $i?>"><?php echo $i?></option>
+                <?php
+                }?>
+            </select></div>
             <div><label>AÑO</label><input type="number" name="ano" id="a"></div>
         </div><br>
         <div class="button"><button type="submit" onclick="enviar()">Mostrar</button></div>

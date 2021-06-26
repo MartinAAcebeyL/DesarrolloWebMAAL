@@ -12,9 +12,9 @@
 
 #contenido{
     width: 80%;
-    height: 250px;
+    height: 200px;
     margin: auto;
-    background-color: blueviolet;
+    border: 3px solid black;
 }
 
 .button{
