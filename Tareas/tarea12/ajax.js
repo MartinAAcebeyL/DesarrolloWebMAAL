@@ -11,4 +11,3 @@ function cargarContenido(abrir) {
 	ajax.setRequestHeader("Content-Type", "text/html; charset=utf-8");
 	ajax.send(null);
 }
-
