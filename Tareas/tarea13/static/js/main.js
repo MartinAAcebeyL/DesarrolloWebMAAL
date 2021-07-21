@@ -110,7 +110,7 @@ function login() {
     ajax.open("get",url , true);
     ajax.send(null);
     cargarContenido_a_mensaje(url)
-    
+   
 }
 
 function change_level(x){
