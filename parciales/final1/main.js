@@ -52,6 +52,7 @@ function pregunta2c() {
 	var contenedor;
 	contenedor = document.getElementById('cuerpo');
 	var ajax = new XMLHttpRequest() 
+	
 	ajax.open("get", url, true);
 	ajax.onreadystatechange = function () {
 		if (ajax.readyState == 4) {

@@ -4,13 +4,12 @@
     $sql = "select id, origen, asunto, mensaje, fecha from entradas";
     $query=mysqli_query($conexion,$sql);
 ?>
-<table border="1">
+<table border="1" class="table table-bordered border-primary">
     <tr>
         <th>Origen</th>
         <th>Asunto</th>
         <th>mensaje</th>
         <th>fecha</th>
-        <th> Marca</th>
     </tr>
     
     <?php

@@ -11,17 +11,20 @@ class finall {
 
 	function calcularSumatoria(){
         $r = 0;
-        for ($i=0; $i <= $this->n; $i++) { 
+        for ($i=1; $i <= $this->n; $i++) {
+            echo $i;
+            if ($i< $this->n)
+                echo '+';
             $r+=$i;
         }
-		return $r;
+		echo '='.$r;
 	}
 
 	function Diagonal(){
 		$tamano = strlen($this->cadena);
         $filas = $tamano;
         $columnas = $tamano;
-        echo "<table border='1' class='tab'>";
+        echo "<table border='1' class='table table-bordered border-primary'>";
             //$auxi_var = 0;
             for($i=0;$i<$filas;$i++){
                 echo "<tr>";

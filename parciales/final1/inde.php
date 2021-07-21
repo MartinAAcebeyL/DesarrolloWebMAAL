@@ -15,9 +15,10 @@
   <body>
     <div class="container">
        <div class="row border">
-           <div class="col-10 bg-warning text-center" id="cabeza">
-               Universidad de San Francisco Xavier <br>
-               Facultad de Ciencias y Tecnologia <br>
+         <img src="images/1.png" style="height: 100px;">
+           <div class="col-10 bg-warning " id="cabeza">
+              Carrera ing de sistemas Ciencias de la computacion<br>
+               Smestre <br>
            </div>
        </div>
        <div class="row border">

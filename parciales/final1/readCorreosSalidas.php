@@ -1,10 +1,10 @@
 <?php
     session_start();
     include('conexion.php');
-    $sql = "select id, destino, asunto, mensaje, fecha from entradas";
+    $sql = "select id, destino, asunto, mensaje, fecha from salidas";
     $query=mysqli_query($conexion,$sql);
 ?>
-<table border="1">
+<table border="1" class="table table-bordered border-primary">
     <tr>
         <th>destino</th>
         <th>Asunto</th>
